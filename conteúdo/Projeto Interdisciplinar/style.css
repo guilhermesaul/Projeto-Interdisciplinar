@@ -1,0 +1,146 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--azul-600);
+    width: 100%;
+    height: 125px;
+    padding-top: 10px;
+    font-family: 'Poppins', monospace;
+}
+
+header img {
+    width: 102px;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 48px;
+    line-height: 40px;
+    color: var(--branco);
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    background-color: var(--azul-100);
+    border-radius: 50px;
+    box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6); 
+
+}
+
+.barra-de-pesquisa > img:hover {
+    cursor: pointer;
+}
+
+.barra-de-pesquisa > input {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-100);
+    width: 700px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 16px;
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa > input::placeholder  {
+    color: var(--azul-400);
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa img {
+    width: 24px;
+    height: 24px;
+}
+
+button {
+    cursor: pointer;
+}
+
+header .botoes {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .botoes button {
+    background-color: var(--azul-100);
+    color: var(--azul-400);
+    border: solid 0px;
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--azul-100);
+    gap: 55px;
+    margin-top: 10px;
+}
+
+nav p {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: var(--azul-400);
+}
+
+main {
+    display: flex;
+    margin: 90px 0 0 110px
+}
+
+main section > h2 {
+    font-family: 'Poppins', monospace;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 45px;
+    color: var(--azul-400);
+}
+
+.livros {
+    display: flex;
+    justify-content: space-between;
+    width: 1550px;
+}
+
+.livros > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.livros div > img {
+    width: 255px;
+    height: 370px;
+}
+
+.livros div > button {
+    background-color: var(--azul-500);
+    color: var(--branco);
+    width: 222px;
+    height: 41px;
+    font-family: 'Poppins', monospace;
+    font-size: 20px;
+    border: none;
+    border-radius: 3.5px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}

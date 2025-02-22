@@ -1,0 +1,207 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--azul-600);
+    width: 100%;
+    height: 125px;
+    font-family: 'Poppins', monospace;
+}
+
+header img {
+    width: 102px;
+    height: 100px;
+    margin-left: 110px;
+}
+
+header h1 {
+    font-size: 48px;
+    line-height: 40px;
+    color: var(--branco);
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    background-color: var(--azul-100);
+    border-radius: 50px;
+    box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6); 
+    margin-left: 200px;
+
+}
+
+.barra-de-pesquisa > img:hover {
+    cursor: pointer;
+}
+
+.barra-de-pesquisa > input {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-100);
+    width: 850px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 16px;
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa > input::placeholder  {
+    color: var(--azul-400);
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+img {
+    cursor: pointer;
+}
+#section1 {
+    display: flex;
+}
+
+#header-chat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    width: 567px;
+    padding: 0 35px;
+    background-color: var(--azul-700);
+}
+
+#section1 #header-chat > h1 {
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Poppins', monospace;
+    color: var(--branco);
+}
+
+#header-usuario {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 1353px;
+    padding: 0 35px;
+    background-color: var(--azul-800);
+}
+
+#section1 #header-usuario > h2 {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: 'Poppins', monospace;
+    color: var(--branco);
+    margin-left: 25px;
+}
+
+#section1 #header-chat > img {
+    margin-top: 5px;
+}
+
+#section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul-800);
+    width: 567px;
+    height: 835px;
+}
+
+#section2 > .usuarios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    color: var(--branco);
+    width: 547px;
+    height: 100px;
+    margin: 10px 10px;
+}
+
+#section2 > .usuarios:hover {
+    background-color: var(--azul-500);
+    border-radius: 20px;
+}
+
+#section2 div > h3 {
+    font-weight: 500;
+    font-size: 28px;
+    font-family: 'Poppins', monospace;
+    color: var(--branco);
+    margin-left: 25px;
+    width: 140px;
+}
+
+#section2 div > h4 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Inter', serif;
+    color: var(--branco);
+    margin-top: 20px;
+    margin-left: 220px;
+    text-align: center;
+    height: 40px;
+}
+
+#section2 div > h5 {
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Inter', serif;
+    color: var(--branco);
+    margin-left: 25px;
+}
+
+#section2 .usuarios img {
+    width: 64px;
+    height: 64px;
+    margin: 17px;
+}
+
+.texto-usuarios {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+#section3 {
+    margin-left: 600px;
+    margin-top: -125px;
+}
+
+#barra-de-msg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--azul-800);
+    width: 1275px;
+    height: 75px;
+    border-radius: 50px;
+}
+
+#barra-de-msg > input {
+    background-color: var(--azul-800);
+    border: none;
+    width: 1870px;
+    height: 70%;
+    margin-top: 5px
+}
+
+#barra-de-msg > input::placeholder {
+    color: var(--branco);
+    padding-left: 20px;
+    font-family: 'Inter', serif;
+    font-size: 20px;
+    font-weight: normal;
+}

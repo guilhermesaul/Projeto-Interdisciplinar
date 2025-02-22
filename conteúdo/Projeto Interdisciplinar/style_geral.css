@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --azul-100: #E4EDFF;
+    --azul-300: #529fff;
+    --azul-400: #027bd7;
+    --azul-500: #01579B;
+    --azul-600: #01467C;
+    --azul-700: #003663;
+    --azul-800: #001831;
+    --preto: #000000;
+    --branco: #ffffff;
+}

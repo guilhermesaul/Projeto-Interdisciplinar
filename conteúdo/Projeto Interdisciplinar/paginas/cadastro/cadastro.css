@@ -1,0 +1,202 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--azul-600);
+    width: 100%;
+    height: 125px;
+    font-family: 'Poppins';
+
+}
+
+header img {
+    width: 102px;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 48px;
+    line-height: 40px;
+    color: var(--branco);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    background-color: var(--azul-100);
+    border-radius: 50px;
+    box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6); 
+}
+
+.barra-de-pesquisa > img:hover {
+    cursor: pointer;
+}
+
+.barra-de-pesquisa > input {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-100);
+    width: 700px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 16px;
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa > input::placeholder  {
+    color: var(--azul-400);
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa img {
+    width: 24px;
+    height: 24px;
+}
+
+button {
+    cursor: pointer;
+}
+
+header .botoes {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .botoes button {
+    background-color: var(--azul-100);
+    color: var(--azul-400);
+    border: solid 0px;
+    width: 150px;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+#login {
+    display: flex;
+    background-color: var(--azul-500);
+    width: 550px;
+    height: 675px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#login h1 {
+    color: var(--branco);
+    font-family: 'Poppins', serif;
+    font-size: 36px;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 50px;
+    margin-top: 75px;
+}
+
+#preenchimento-input {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.input-escrever {
+    background-color: var(--azul-100);
+    border: none;
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    margin-bottom: 0;
+    outline: none;
+    padding: 0 16px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azul-100);
+    border-radius: 4px;
+    width: 470px;
+    padding: 0 8px;
+    box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6);
+}
+
+.senha {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-100);
+    border-radius: 4px;
+    width: 470px;
+    padding: 0 8px;
+    box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6);
+}
+
+section form div > img {
+    cursor: pointer;
+    width: 26px;
+    height: 20px;
+}
+
+#senha {
+    width: 4070px;
+}
+
+.input-escrever::placeholder {
+    color: var(--azul-400);
+}
+
+#input-marcar {
+    width: 18px;
+    height: 15px;
+    margin-left: 40px;
+    margin-top: 17.5px;
+}
+
+#label-senha {
+    color: var(--branco);
+    font-weight: 200;
+    font-family: 'Inter', serif;
+    margin-top: 16px;
+    margin-left: 7px;
+}
+
+#senhas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#botao-form {
+    text-align: center;
+    width: 200px;
+    height: 43px;
+    border-radius: 4px;
+    border: solid 0px;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.6);
+    margin-top: 25px;
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: var(--azul-300);
+    color: var(--branco);
+}

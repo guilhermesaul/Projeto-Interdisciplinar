@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblio Swap</title>
+    <link rel="stylesheet" href="cadastro_livros.css">
+    <link rel="stylesheet" href="../../style_geral.css">
+    <link rel="shortcut icon" href="../../imagens_geral/img_principais/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../../imagens_geral/img_principais/logo.png" id="logo">
+            <div>
+                <h1>Biblio</h1>
+                <h1>Swap</h1>
+            </div>
+        </div>
+        <div class="barra-de-pesquisa">
+            <input type="text" placeholder="Procure por livros, usuários, autores e comece a troca!">
+            <img src="../../imagens_geral/img_pagina_login-cadastro/buscar.png" alt="Erro!">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Cadastro de Livros</h1>
+            <h2>Dados de Login</h2>
+            <form>
+                
+                <div class="formulario_login">
+                    <div id="largura-form">
+                        <h3>E-mail*</h3>
+                        <input type="text" placeholder="Digite seu e-mail">
+                        <h3>Senha*</h3>
+                        <div class="img-dentro-input">
+                            <input type="password" placeholder="******************" style="border: none;">
+                            <img src="../../imagens_geral/img_pagina_login-cadastro/olho-senha.png" alt="Erro!">
+                        </div>
+                    </div>
+                </div>
+                
+                <h2 id="h2-especifico">Dados do Livro</h2>
+                <div class="formulario_login">
+                    <div id="largura-form-gap">
+                        <input type="text" placeholder="Título">
+                        <input type="text" placeholder="Autor(es)">
+                        <div class="div-input">
+                            <input type="text" class="tres-input" placeholder="Edição">
+                            <input type="text" class="tres-input" placeholder="Ano">
+                            <input type="text" class="tres-input" placeholder="Páginas">
+                        </div>
+                        <div class="div-input">
+                            <input type="text" placeholder="ISBN 10" class="dois-input">
+                            <input type="text" placeholder="ISBN 13" class="dois-input">
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <form>
+                <div class="formulario_login">
+                    <div id="largura-form">
+                        <h3>Confirme seu E-mail*</h3>
+                        <input type="text" placeholder="Confirmação do e-mail">
+                        <h3>Confirme sua Senha*</h3>
+                        <div class="img-dentro-input" style="margin-bottom: 106px;">
+                            <input type="password" placeholder="******************" style="border: none;">
+                            <img src="../../imagens_geral/img_pagina_login-cadastro/olho-senha.png" alt="Erro!">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="formulario_login">
+                    <div id="largura-form-gap">
+                        <input type="text" placeholder="Subtítulo">
+                        <input type="text" placeholder="Idioma">
+                        <input type="text" placeholder="Editora">
+                        <input type="text" placeholder="Categoria(s)">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <button>Cadastrar</button>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,162 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: var(--azul-600);
+    width: 100%;
+    height: 125px;
+    padding-top: 10px;
+    font-family: 'Poppins', monospace;
+}
+
+header img {
+    width: 102px;
+    height: 100px;
+    margin-left: 110px;
+}
+
+header h1 {
+    font-size: 48px;
+    line-height: 40px;
+    color: var(--branco);
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    background-color: var(--azul-100);
+    border-radius: 50px;
+    box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6); 
+    margin-left: 200px;
+
+}
+
+.barra-de-pesquisa > img:hover {
+    cursor: pointer;
+}
+
+.barra-de-pesquisa > input {
+    display: flex;
+    align-items: center;
+    background-color: var(--azul-100);
+    width: 850px;
+    height: 55px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    padding: 16px;
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa > input::placeholder  {
+    color: var(--azul-400);
+    font-family: 'Poppins', monospace;
+}
+
+header .barra-de-pesquisa img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: var(--azul-100);
+    gap: 55px;
+    margin-top: 10px;
+}
+
+nav p {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: var(--azul-400);
+}
+
+main {
+    display: flex;
+    margin: 100px 0 0 165px
+}
+
+main section > h1 {
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Poppins', monospace;
+    color: var(--azul-400);
+}
+
+.card-livros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    border-radius: 4px;
+    box-shadow: 0 0 8px rgb(0, 0, 0, 0.25);
+    width: 340px;
+    height: 560px;
+    background-color: var(--branco);
+}
+
+.card-livros img {
+    width: 250px;
+    height: 370px;
+    margin-top: 47.5px;
+}
+
+.card-livros > h3 {
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Poppins', monospace;
+    color: var(--azul-500);
+    margin-top: 5px;
+    height: 27.5px;
+}
+
+.card-livros > h4 {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Poppins', monospace;
+    color: var(--azul-400);
+    height: 27.5px;
+}
+
+.card-livros > h5 {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Inter', serif;
+    color: var(--azul-300);
+    height: 17px;
+}
+
+.card-livros button {
+    border: none;
+    border-radius: 3px;
+    background-color: var(--azul-500);
+    font-family: 'Poppins', monospace;
+    font-size: 14px;
+    font-weight: bolder;
+    color: var(--branco);
+    width: 164px;
+    height: 29px;
+    margin-top: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 65px;
+}
+
+button, img {
+    cursor: pointer;
+}
