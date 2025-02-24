@@ -45,12 +45,14 @@ header h1 {
     border-radius: 50px;
     outline: none;
     padding: 16px;
+    padding-top: 20px;
     font-family: 'Poppins', monospace;
 }
 
 header .barra-de-pesquisa > input::placeholder  {
     color: var(--azul-400);
-    font-family: 'Poppins', monospace;
+    font-family: 'Inter', serif;
+    font-size: 20px;
 }
 
 header .barra-de-pesquisa img {
@@ -77,7 +79,7 @@ img {
     height: 120px;
     width: 567px;
     padding: 0 35px;
-    background-color: var(--azul-700);
+    background-color: var(--azul-800);
 }
 
 #section1 #header-chat > h1 {

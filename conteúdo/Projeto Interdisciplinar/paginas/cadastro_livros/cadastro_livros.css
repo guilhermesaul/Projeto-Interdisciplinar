@@ -34,7 +34,7 @@ header h1 {
     display: flex;
     align-items: center;
     background-color: var(--azul-100);
-    padding: 0 16px 0 16px;
+    padding: 5px 16px 0 16px;
     margin-left: 222px;
     border-radius: 50px;
     box-shadow: 0px 1.5px 4px rgb(0, 0, 0, 0.6); 
@@ -59,7 +59,8 @@ header h1 {
 
 header .barra-de-pesquisa > input::placeholder  {
     color: var(--azul-400);
-    font-family: 'Poppins', monospace;
+    font-family: 'Inter', serif;
+    font-size: 20px;
 }
 
 header .barra-de-pesquisa img {
@@ -80,7 +81,7 @@ form {
 }
 
 section > h1 {
-    color: var(--azul-400);
+    color: var(--azul-700);
     font-weight: bold;
     font-family: 'Poppins';
     font-size: 48px;
@@ -90,7 +91,7 @@ section > h1 {
 
 section > h2,
 form > h2 {
-    color: var(--azul-400);
+    color: var(--azul-700);
     font-weight: 600;
     font-family: 'Poppins';
     font-size: 36px;
@@ -105,7 +106,7 @@ form .formulario_login {
 }
 
 form div > h3 {
-    color: var(--azul-500);
+    color: var(--azul-700);
     font-weight: 500;
     font-family: 'Poppins';
     font-size: 28px;
@@ -121,7 +122,7 @@ section form div > input {
 }
 
 section form div > input::placeholder {
-    color: var(--azul-400);
+    color: var(--azul-700);
     font-family: 'Inter', serif;
 }
 
@@ -129,7 +130,7 @@ section form .img-dentro-input {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: var(--branco);
+    background-color: var(--branc7);
     border: solid 1px black;
     margin-bottom: 40px;
 }
@@ -176,7 +177,7 @@ form > h3 {
 
 button {
     cursor: pointer;
-    background-color: var(--azul-300);
+    background-color: var(--azul-500);
     color: var(--branco);
     font-family: 'Inter', serif;
     font-size: 20px;

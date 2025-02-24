@@ -50,7 +50,8 @@ header h1 {
 
 header .barra-de-pesquisa > input::placeholder  {
     color: var(--azul-400);
-    font-family: 'Poppins', monospace;
+    font-family: 'Inter', serif;
+    font-size: 20px;
 }
 
 header .barra-de-pesquisa img {
