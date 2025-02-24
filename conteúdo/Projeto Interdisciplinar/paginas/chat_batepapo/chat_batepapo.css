@@ -128,9 +128,10 @@ img {
     margin: 10px 10px;
 }
 
-#section2 > .usuarios:hover {
+#section2 > #pagina-exemplo-hover {
     background-color: var(--azul-500);
     border-radius: 20px;
+    height: 120px;
 }
 
 #section2 div > h3 {
