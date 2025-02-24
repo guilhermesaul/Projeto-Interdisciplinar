@@ -19,3 +19,41 @@
     margin-top: 166px;
     margin-left: 180px;
 }
+
+#section2 {
+    display: flex;
+    align-items: center;
+    gap: 83px;
+    margin-top: 150px;
+    margin-left: 43px;
+    width: 1455px;
+    height: 72px;
+}
+
+#section2 h1, #section3 h1 {
+    font-family: 'Poppins', monospace;
+    font-size: 48px;
+    font-weight: bold;
+    color: var(--azul-600);
+}
+
+#section2 h3 {
+    font-family: 'Poppins', monospace;
+    font-size: 28px;
+    font-weight: 500;
+    color: var(--azul-600);
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: solid 1px var(--azul-700);
+}
+
+#section3 {
+    margin-left: 43px;
+}
+#section3 img {
+    margin-top: 20px;
+    margin-right: 25px;
+}
