@@ -102,6 +102,7 @@ nav p {
     font-family: 'Inter';
     font-size: 20px;
     color: var(--azul-400);
+    text-underline-offset: 16.5px;
 }
 
 main {
