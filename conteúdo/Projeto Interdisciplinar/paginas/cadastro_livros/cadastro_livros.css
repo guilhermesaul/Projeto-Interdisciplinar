@@ -10,9 +10,12 @@ header {
 
 }
 
-#img-perfil {
+#img-perfil-usuario {
+    width: 64px;
+    height: 64px;
     margin-right: 50px;
 }
+
 img {
     cursor: pointer;
 }

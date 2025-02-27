@@ -62,10 +62,10 @@ header .barra-de-pesquisa img {
     height: 24px;
 }
 
-#img-perfil {
-    margin-right: 50px;
+#img-perfil-usuario {
     width: 64px;
     height: 64px;
+    margin-right: 50px;
 }
 
 .logo {

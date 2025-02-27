@@ -20,7 +20,8 @@ header h1 {
     line-height: 40px;
     color: var(--branco);
 }
-header > img {
+
+#img-perfil-usuario {
     width: 64px;
     height: 64px;
     margin-right: 50px;
