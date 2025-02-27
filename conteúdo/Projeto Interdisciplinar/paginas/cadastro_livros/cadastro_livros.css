@@ -167,6 +167,7 @@ section form img {
     width: 680px;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 #largura-form-gap {
@@ -197,6 +198,12 @@ form > h3 {
 
 #h2-especifico {
     margin-bottom: 15px;
+}
+
+#apenas-para-botao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 button {
