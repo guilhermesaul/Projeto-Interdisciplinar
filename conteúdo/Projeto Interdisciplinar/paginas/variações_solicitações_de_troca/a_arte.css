@@ -72,7 +72,7 @@ header .barra-de-pesquisa img {
     margin-right: 50px;
 }
 
-img {
+img, button {
     cursor: pointer;
 }
 

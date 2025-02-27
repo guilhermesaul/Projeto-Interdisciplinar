@@ -146,7 +146,7 @@ main section > h1 {
     height: 17px;
 }
 
-.card-livros button {
+.card-livros #button {
     border: none;
     border-radius: 3px;
     background-color: var(--azul-500);
@@ -157,6 +157,17 @@ main section > h1 {
     width: 164px;
     height: 29px;
     margin-top: 10px;
+}
+
+.card-livros button {
+    border: none;
+    border-radius: 3px;
+    background-color: var(--azul-500);
+    font-family: 'Poppins', monospace;
+    font-size: 14px;    
+    color: var(--branco);
+    width: 164px;
+    height: 29px;
 }
 
 #container {

@@ -172,7 +172,7 @@ main section h3 {
 }
 
 button {
-    background-color: var(--azul-500);
+        background-color: var(--azul-500);
     color: var(--branco);
     width: 222px;
     height: 41px;
